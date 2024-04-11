@@ -1,0 +1,24 @@
+Abstract:
+library management system would be to create a separate class for handling the catalog of books, and another class for handling the individual books. 
+This would allow for better organization and separation of concerns, as well as making the code more reusable. The Library class holds a list of all 
+the books in the library and has methods for adding and removing books, as well as displaying all the books in the library. The LibraryManagementSyste
+m class handles the user interface and communication between the Book and Library classes, using a Scanner object to get user input and controlling 
+the overall flow of the program
+
+Introduction:
+Library Management System, this project build on Java is a great way to update the record, monitor and add books, search for the required ones, 
+taking care of the issue date and return date. It comes with basic features like creating a new record and updating and deleting it. 
+ 
+Explanation:
+A Library Management System is a software application that helps to manage and organize the daily operations of a library. 
+
+Before we begin, let’s first define the main components of our LMS. We will need to create a Book class that will hold information about each book in 
+the library, including the title, author, ISBN, and availability status.  Finally, you will create a LibraryManagementSystem class that will handle 
+the user interface and communication between the Book and Library classes.
+
+Book class will have four instance variables: Title, Author, ISBN, and Availability. These variables will hold the respective information about each 
+book. We will also include a constructor that will take in the values for each variable and set them to the corresponding instance variables.Next, we
+ will create the Library class. This class will have an instance variable called book that will hold a list of all the books in the library.  We will 
+ also include methods for adding and removing books from the list, as well as a method for displaying all the books in the library.Finally, we will 
+ create the LibraryManagementSystem class that will handle the user interface and communication between the Book and Library classes. This class will 
+ use a Scanner object to get user input and will include a main method that will handle the overall flow of the program.
